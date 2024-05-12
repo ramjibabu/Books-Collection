@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books-Collection</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="navBar">
+        <h3>Book Store</h3>
+ </div>
+ <!-- book box is start -->
+ <div id="container">
+ <div id="bookBox">
+<h3>Rich Dad Poor Dad</h3>
+<span>Robert</span>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus expedita omnis inventore distinctio libero sequi nostrum magni consectetur ex necessitatibus provident corrupti, a iusto quam similique asperiores odit optio?</p>
+<button id="bookBoxDelete" onclick="deleteButt(event)">Delete</button>
+ </div>
+</div>
+ <!-- end is the book Box -->
+ <span id="addSpan">Click and Add -></span>
+ <button id="addButt">+</button>
+ <div id="overLay"></div>
+ <!-- form is start -->
+ <div id="popUpBox">
+    <form>
+        <h1>Add Book</h1>
+        <input id="bookTitleInput" type="text" placeholder="Book Title"/><br>
+        <input id="bookAuthorInput" type="text" placeholder="Book Author"/><br>
+      <textarea id="textAreaInput" placeholder="Short Description"></textarea><br>
+      <button id="popUpBoxAdd">ADD</button>
+      <button id="popUpBoxClose">CLOSE</button>
+    </form>
+ </div>
+
+ <!-- form is stop -->
+    <script src="index.js"></script>
+</body>
+
+</html>

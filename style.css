@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navBar{
+    background-color: tomato;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}#navBar h3{
+font-size: 35px;
+margin-left: 10px;
+}#bookBox{
+    
+background-color: black;
+    
+color: white;
+    
+width: 250px;
+    vertical-align: top;
+border-radius: 10px;
+    
+margin: 30px;
+line-height: 24px;
+padding: 20px;
+display: inline-block;
+}#bookBox h3{
+    color: tomato;
+    font-size: 20px;
+}#bookBox span{
+    font-weight: bold;
+}#bookBox button{
+    background: tomato;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px;
+}#addButt{
+    padding: 20px;
+    /* height: 30px; */
+    /* width: 30px; */
+    background: tomato;
+    border: none;
+    border-radius: 100%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    
+}#overLay{
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.6;
+    display: none;
+}#popUpBox{
+    background: tomato;
+    width: 305px;
+    height: 200px;
+    position: absolute;
+    top: 210px;
+    left: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}#popUpBox input{
+    width: 300px;
+    height: 30px;
+    
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    background: tomato;
+    outline: none;
+ 
+}#popUpBox input::placeholder,#popUpBox textarea::placeholder{
+color: black;
+}#popUpBox textarea{
+    background: tomato;
+    width: 305px;
+    height:40px ;
+    outline: none;
+    border: 1px solid black;
+}#popUpBox button{
+    background: black;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}#addSpan{
+    position: fixed;
+    bottom: 30px;
+    right: 90px;
+    font-size: 30px;
+    color: tomato;
+    letter-spacing: 4px;
+}
+
