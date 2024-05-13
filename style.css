@@ -65,7 +65,7 @@ display: inline-block;
     height: 200px;
     position: absolute;
     top: 210px;
-    left: 400px;
+    /* left: 400px; */
     padding: 20px;
     border-radius: 5px;
     display: none;
@@ -101,5 +101,12 @@ color: black;
     font-size: 30px;
     color: tomato;
     letter-spacing: 4px;
+}#response{
+
+display: flex;
+
+/* align-items: center; */
+
+justify-content: center;
 }
 
